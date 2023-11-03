@@ -26,21 +26,20 @@ fi
 ######luowei add
 
 #杀死占用8084端口的程序 luowei add
-if sudo lsof -t -i:8084 | grep . >/dev/null; then
-  sudo kill -9 $(sudo lsof -t -i:8084)
-fi
+#if sudo lsof -t -i:8084 | grep . >/dev/null; then
+#  sudo kill -9 $(sudo lsof -t -i:8084)
+#fi
 
-export BAIDU_APIKEY="9EK7fILTS7TLilYsCGLDi7mQ"
-export BADIU_APISECRET="rG9sj6Cwwx1LxZe3SbWDfyncWfIQr1b2"
+export BAIDU_APIKEY="xxx"
+export BADIU_APISECRET="xxx"
 
-export XUNFEI_APPID="9b14f37d"     #填写控制台中获取的 APPID 信息
-export XUNFEI_APISECRET="ZGQ3MDlhNWEwNGUzNjliYzViZTBhOTU0"   #填写控制台中获取的 APISecret 信息
-export XUNFEI_APIKEY="a7e66bd53e2de0d8922056c32d1cd280"    #填写控制台中获取的 APIKey 信息
+export XUNFEI_APPID="xxx"
+export XUNFEI_APISECRET="xxx"
+export XUNFEI_APIKEY="xxx"
 
+export PYTHON_CMD="python3"
+export PYTHON_CHDIR="xxx/wire-pod-chinese/python"
 
-export PYTHON_CMD="/home/luowei/anaconda3/bin/python"
-export PYTHON_CHDIR="/home/luowei/space/vector/wire-pod/python"
-export WIREPOD_HOME="/home/luowei/space/vector/wire-pod" #用于初始化sdk_wrapper
 ######
 
 
