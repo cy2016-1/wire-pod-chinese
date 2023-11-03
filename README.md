@@ -26,7 +26,7 @@
 
 ## 安装方法：
 
-参考官方的安装过程，除了问题可以到官方github的issues搜索解决办法：
+参考官方的安装过程，出了问题可以到官方github的issues搜索解决办法：
 
 The installation guide exists on the wiki: [Installation guide](https://github.com/kercre123/wire-pod/wiki/Installation)
 
@@ -78,7 +78,7 @@ python如果报错，根据报错信息用pip或者apt安装缺少的包即可�
 
 #### 技术支持：
 
-如果安装实在有困难，也可以联系我的weichat：nqluowei
+有问题可以先在gitee提issues，如果安装实在有困难，也可以联系我的weichat：nqluowei
 
 
 
