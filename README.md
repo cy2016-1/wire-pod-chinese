@@ -5,13 +5,21 @@
 需要在百度云控制台和迅飞大模型控制台申请对应的免费api key：
 
 `export BAIDU_APIKEY="xxx"`
+
 `export BADIU_APISECRET="xxx"`
 
+
+
 `export XUNFEI_APPID="xxx"`
+
 `export XUNFEI_APISECRET="xxx"`
+
 `export XUNFEI_APIKEY="xxx"`
 
+
+
 `export PYTHON_CMD="python3"`
+
 `export PYTHON_CHDIR="xxx/wire-pod-chinese/python"`
 
 
@@ -32,7 +40,7 @@ The installation guide exists on the wiki: [Installation guide](https://github.c
 
 `go env -w GO111MODULE=on`
 
-`go env -w GOPROXY=https://goproxy.cn,direct \#这个命令会让下载github.com的go包加速`
+`go env -w GOPROXY=https://goproxy.cn,direct #这个命令会让下载github.com的go包加速`
 
 
 
